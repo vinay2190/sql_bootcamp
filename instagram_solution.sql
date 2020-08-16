@@ -36,7 +36,7 @@ GROUP BY image_url ORDER BY counter DESC LIMIT 10;
 
 SELECT ROUND((SELECT COUNT(*) from photos / SELECT count(*) FROM users),2) AS 'Avg per user';
 
-                OR
+--               OR
                 
 SELECT ROUND(COUNT(photos.id)/ COUNT(DISTINCT(users.id)),2) AS 'Avg per user' FROM users LEFT JOIN photos ON users.id = photos.user_id;
 
