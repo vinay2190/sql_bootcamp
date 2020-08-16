@@ -1,0 +1,20 @@
+-- First question
+-- Select the 5 oldest users.
+
+-- Second question
+-- Show which days have maximum numbers of users signing up.
+
+-- Third question
+-- Select users that have not uploaded any pictures on 'instagram'.
+
+-- Fourth question
+-- Select the Top 10 most liked images on 'instagram'.
+
+-- Fifth question
+-- Select the average number of likes per user on the platform.
+
+-- Sixth question
+-- Select the 5 most popular photo tags used.
+
+-- Seventh question
+-- Select users that have like every photo on the site (potential bots).
